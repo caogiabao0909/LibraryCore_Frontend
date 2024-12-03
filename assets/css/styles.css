@@ -1,0 +1,82 @@
+.header .inner-wrap a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header .inner-wrap a img{
+    height: 50px;
+    width: auto;
+}
+
+.header .inner-wrap a span {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.section-one{
+    display: flex;
+    height: calc(100vh - 50px);
+}
+
+
+.section-one .left{
+    display: flex;
+    justify-content: right;
+    width: 60%;
+    background: linear-gradient(to bottom, #d4fc79, #96e6a1, #7ccff7);
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.section-one .left h1{
+    align-self: center;
+    margin-right: 80px;
+}
+
+.section-one .left .highlight {
+    text-decoration: underline;
+}
+
+.section-one .right{
+    width: 40%;
+}
+
+.section-one .right .content{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.section-one .right .content button{
+    margin-bottom: 20px;
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.section-one .right .content button:hover {
+    background-color: #0056b3;
+}
+
+.section-one .right .content .logo{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.section-one .right .content .logo img{
+    height: 100px;
+    width: auto;
+}
