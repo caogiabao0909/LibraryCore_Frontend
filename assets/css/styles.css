@@ -1,17 +1,19 @@
 /* header */
+
 .header .inner-wrap a{
     text-decoration: none;
     display: flex;
     align-items: center;
 }
 
+
 .header .inner-wrap a img{
-    height: 50px;
+    height: 60px;
     width: auto;
 }
 
 .header .inner-wrap a span {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     font-weight: 500;
 }
@@ -20,7 +22,7 @@
 /* section-one */
 .section-one{
     display: flex;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 60px);
 }
 
 
