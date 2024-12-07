@@ -1,0 +1,92 @@
+
+body {
+  background: linear-gradient(to bottom, #d4fc79, #96e6a1, #7ccff7);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.login-box{
+  background-color: white;
+  width: 360px;
+  padding-bottom: 50px;
+}
+
+.login-box .logo{
+  display: flex;
+  align-items: center;
+}
+
+.login-box .logo img{
+  height: 50px;
+  width: auto;
+}
+
+.login-box .logo span{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.login-box form{
+  /* display: flex; */
+  padding: 0px 50px;
+  margin-top: 50px;
+  /* flex-direction: column; */
+}
+
+.login-box form h2{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.login-box form input{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: none; 
+  outline: none;
+  border-bottom: 1px solid gray; 
+}
+
+.login-box form input:focus {
+  border-bottom: 2px solid black
+}
+
+.login-box form .links{
+  font-size: 12px;
+}
+
+.login-box form .links a{
+  color: #00B2FF;
+  text-decoration: none;
+}
+
+.login-box form .links a:hover{
+  text-decoration: underline;
+}
+
+.login-box form .links p{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.login-box form .wrap-button{
+  display: flex;
+  justify-content: right;
+}
+
+.login-box form .button{
+  background-color: var(--color-button);
+  border: 0px;
+  border-radius: 3px;
+  padding: 5px 30px;
+  margin-top: 30px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-box form .button:hover{
+  background-color: var(--color-button-hover);
+}
