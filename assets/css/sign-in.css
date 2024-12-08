@@ -1,0 +1,94 @@
+
+body {
+    background: linear-gradient(to bottom, #d4fc79, #96e6a1, #7ccff7);
+    /* height: 100vh; */
+    padding: 70px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .sign-in-box{
+    background-color: white;
+    width: 55%;
+    padding-bottom: 50px;
+  }
+  
+  .sign-in-box .logo{
+    display: flex;
+    align-items: center;
+  }
+  
+  .sign-in-box .logo img{
+    height: 80px;
+    width: auto;
+  }
+  
+  .sign-in-box .logo span{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .sign-in-box form{
+    /* display: flex; */
+    padding: 0px 50px;
+    /* margin-top: 50px; */
+  }
+  
+  .sign-in-box form h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 30px;
+    /* margin-bottom: 25px; */
+  }
+
+  .sign-in-box form p{
+    /* margin-bottom: 40px; */
+  }
+
+  .sign-in-box form .inner-wrap{
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .sign-in-box form .inner-wrap .birthday{
+    /* align-self: flex-start; */
+    }
+  
+  .sign-in-box form input{
+    /* width: 48%; */
+    margin-bottom: 20px;
+    padding: 5px;
+    border: none; 
+    outline: none;
+    border-bottom: 1px solid gray; 
+    
+  }
+
+  .sign-in-box form .inner-wrap input{
+    width: 48%;
+  }
+  
+  .sign-in-box form input:focus {
+    border-bottom: 2px solid black
+  }
+  
+  .sign-in-box form .wrap-button{
+    display: flex;
+    justify-content: right;
+  }
+  
+  .sign-in-box form .button{
+    background-color: var(--color-button);
+    border: 0px;
+    border-radius: 3px;
+    padding: 5px 30px;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .sign-in-box form .button:hover{
+    background-color: var(--color-button-hover);
+  }
