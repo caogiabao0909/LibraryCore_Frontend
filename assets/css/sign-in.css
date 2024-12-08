@@ -42,18 +42,29 @@ body {
     /* margin-bottom: 25px; */
   }
 
-  .sign-in-box form p{
-    /* margin-bottom: 40px; */
-  }
-
   .sign-in-box form .inner-wrap{
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
   .sign-in-box form .inner-wrap .birthday{
+    width: 48%;
+    display: table;
+    /* display: flex; */
+    /* align-items: center; */
     /* align-self: flex-start; */
-    }
+  }
+
+  .sign-in-box form .inner-wrap .birthday label{
+    display: table-cell;
+    white-space: nowrap;
+  }
+
+  .sign-in-box form .inner-wrap .birthday input{
+    /* text-align: right; */
+    display: table-cell; /* Input như một ô trong bảng */
+    width: 100%;
+  }
   
   .sign-in-box form input{
     /* width: 48%; */
@@ -72,6 +83,21 @@ body {
   .sign-in-box form input:focus {
     border-bottom: 2px solid black
   }
+
+  .sign-in-box form .upload-box{
+    display: table;
+    width: 100%;
+  }
+
+  .sign-in-box form .upload-box label{
+    display: table-cell;
+    white-space: nowrap;
+  }
+
+  .sign-in-box form .upload-box input{
+    display: table-cell;
+    width: 100%;
+  }
   
   .sign-in-box form .wrap-button{
     display: flex;
@@ -82,7 +108,7 @@ body {
     background-color: var(--color-button);
     border: 0px;
     border-radius: 3px;
-    padding: 5px 30px;
+    padding: 8px 40px;
     margin-top: 30px;
     color: white;
     cursor: pointer;
